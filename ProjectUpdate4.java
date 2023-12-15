@@ -16,7 +16,7 @@ public class RentalCarProgram extends Application {
     /**
      * The start method is the entry point of the JavaFX application.
      *
-     * @param primaryStage The primary stage for this application.
+    
      */
     @Override
     public void start(Stage primaryStage) {
@@ -101,7 +101,7 @@ public class RentalCarProgram extends Application {
     /**
      * The main method launches the JavaFX application.
      *
-     * @param args The command line arguments.
+     
      */
     public static void main(String[] args) {
         launch(args);
@@ -119,9 +119,9 @@ class Customer {
     /**
      * Constructs a new Customer object with the specified name, age, and license number.
      *
-     * @param name           The name of the customer.
-     * @param age            The age of the customer.
-     * @param licenseNumber  The license number of the customer.
+     * name           The name of the customer.
+     * age            The age of the customer.
+     * licenseNumber  The license number of the customer.
      */
     public Customer(String name, int age, String licenseNumber) {
         this.name = name;
